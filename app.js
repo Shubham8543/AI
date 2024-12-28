@@ -1,7 +1,7 @@
 import express from 'express';
 import morgan from 'morgan';
 import connectDB from './db/db.js';
-import userRoutes from './routes/userRoute.js'
+import userRoutes from './routes/userRoute.js';
 connectDB();
 
 
